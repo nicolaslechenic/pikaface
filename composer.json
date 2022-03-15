@@ -1,0 +1,22 @@
+{
+    "name": "nicolaslechenic/pikaface",
+    "autoload": {
+        "psr-4": {
+            "Nicolaslechenic\\Pikaface\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nicolas LE CHENIC",
+            "email": "nicolaslechenic@gmail.com"
+        }
+    ],
+    "require": {
+        "peridot-php/peridot": "^1.19",
+        "vlucas/phpdotenv": "^5.4",
+        "peridot-php/webdriver-manager": "1.3.1"
+    },
+    "require-dev": {
+        "symfony/console": "~2.6"
+    }
+}
